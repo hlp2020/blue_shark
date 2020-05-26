@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Lilun</class>
+ <widget class="QWidget" name="Lilun">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>760</width>
+    <height>41</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <spacer name="horizontalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>贷款利率：</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QComboBox" name="comboBox">
+     <item>
+      <property name="text">
+       <string>20年3月20日贷款市场报价利率（LPR）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>19年9月20日贷款市场报价利率（LPR）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>15年10月24日利率上限（1.1倍）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>15年10月24日利率上限（1.05倍）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>15年10月24日利率下限（85折）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>15年10月24日利率下限（7折）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>15年10月24日基准利率</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>15年8月26日利率上限（1.1倍）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>15年8月26日利率下限（85折）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>15年8月26日利率下限（7折）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>15年8月26日基准利率</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>15年6月28日利率上限（1.1倍）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>15年6月28日利率下限（85折）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>15年6月28日利率下限（7折）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>15年6月28日基准利率</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>15年5月11日利率上限（1.1倍）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>15年5月11日利率下限（85折）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>15年5月11日利率下限（7折）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>15年5月11日基准利率</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>15年3月1日利率上限（1.1倍）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>15年3月1日利率下限（85折）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>15年3月1日利率下限（7折）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>15年3月1日基准利率</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>14年11月22日利率上限（1.1倍）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>14年11月22日利率下限（85折）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>14年11月22日利率下限（7折）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>14年11月22日基准利率</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>12年7月6日利率上限（1.1倍）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>12年7月6日利率下限（85折）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>12年7月6日利率下限（7折）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>12年7月6日基准利率</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>12年6月8日利率上限（1.1倍）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>12年6月8日利率下限（85折）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>12年6月8日利率下限（7折）</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>12年6月8日基准利率</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QLCDNumber" name="lcd"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>%</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

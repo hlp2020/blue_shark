@@ -1,0 +1,10 @@
+lilun.o
+main.o
+widget.o
+zoesuan.o
+zuhe.o
+qrc_res.o
+moc_lilun.o
+moc_widget.o
+moc_zoesuan.o
+moc_zuhe.o
