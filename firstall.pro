@@ -42,3 +42,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 RESOURCES += \
     res.qrc
 CONFIG += resources_big
+
+DISTFILES += \
+    imi/55.jpg
